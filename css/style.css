@@ -1,0 +1,117 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.header {
+  width: 1442px;
+  background-color: #0A0A23;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  height: 38px;
+  position: fixed;
+}
+
+.header h1 {
+  color: #fff;
+}
+
+.header .menu button {
+  color: #fff;
+  border: 1px solid white;
+  height: 33px;
+  margin-top: 3px;
+  font-size: 28px;
+  background-color: #0A0A23;
+  padding-right: 5px;
+  padding-left: 5px;
+  cursor: pointer;
+}
+
+.header .menu :hover {
+  background-color: #fff;
+  color: #0A0A23;
+}
+
+.header .submit button {
+  width: 80px;
+  border: none;
+  background-color: #FFBC3F;
+  margin-left: 21px;
+  height: 33px;
+  margin-top: 2px;
+  color: #333;
+  cursor: pointer;
+}
+
+.header .svg1 svg {
+  width: 33px;
+  height: 33px;
+  margin-right: 10px;
+  border: 1px solid white;
+  margin-left: 300px;
+  margin-top: 3px;
+  padding: 3px;
+}
+
+.header svg {
+  width: 41px;
+  height: 41px;
+  margin-left: 5px;
+}
+
+.header input {
+  width: 520px;
+  height: 26px;
+  font-size: 20px;
+  margin-left: 15px;
+  padding-left: 25px;
+  background-color: #3B3B4F;
+  border: none;
+  margin-top: 7px;
+  margin-right: 33px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.header form i {
+  position: absolute;
+  left: 18px;
+  top: 13px;
+}
+
+.header .int {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .header form {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 375PX) {
+  .menu {
+    display: none;
+  }
+  h1 {
+    font-size: 22px;
+    margin-top: 7px;
+  }
+  .submit {
+    display: none;
+  }
+  .svg2 svg {
+    height: 28px;
+    left: 270px;
+    padding-top: 2.5px;
+    padding-bottom: 2.5px;
+    position: absolute;
+    top: 3px;
+    border: 1px solid white;
+  }
+}
+/*# sourceMappingURL=style.css.map */
