@@ -88,6 +88,126 @@
   display: none;
 }
 
+@media screen and (max-width: 1400px) {
+  .header {
+    height: 55px;
+    padding-top: 8px;
+  }
+  .header i {
+    margin-top: 7px;
+  }
+}
+
+@media screen and (max-width: 1330px) {
+  .header input {
+    width: 470px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+}
+
+@media screen and (max-width: 1292px) {
+  .header h1 {
+    font-size: 24px;
+    margin-top: 7px;
+  }
+  .header .svg1 svg {
+    margin-left: 280px;
+  }
+  .header .submit button {
+    color: #0A0A23;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .header {
+    height: 57px;
+  }
+  .header input {
+    width: 460px;
+    margin-top: 15px;
+  }
+  .header i {
+    margin-top: 8px;
+  }
+  .header h1 {
+    font-size: 28px;
+    margin-top: 10px;
+  }
+  .header svg {
+    margin-top: 8px;
+  }
+  .header .svg1 svg {
+    margin-left: 245px;
+    margin-top: 10px;
+  }
+  .header .menu button {
+    font-size: 20px;
+    margin-top: 10px;
+  }
+  .header .submit button {
+    font-size: 20px;
+    margin-top: 10px;
+    color: #0A0A23;
+    margin-left: 13px;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .header input {
+    width: 415px;
+    margin-top: 10px;
+  }
+  .header h1 {
+    margin-top: 7px;
+    font-size: 26px;
+  }
+  .header svg {
+    margin-top: 2px;
+  }
+  .header .svg1 svg {
+    margin-left: 215px;
+  }
+}
+
+@media screen and (max-width: 999px) {
+  .header {
+    height: 60px;
+  }
+  .header input {
+    width: 370px;
+    margin-top: 15px;
+  }
+  .header i {
+    margin-top: 8px;
+  }
+  .header h1 {
+    font-size: 28px;
+    margin-top: 13px;
+  }
+  .header svg {
+    margin-top: 10px;
+  }
+  .header .svg1 svg {
+    margin-left: 100px;
+    width: 30px;
+    margin-top: 10px;
+  }
+  .header .menu button {
+    font-size: 21px;
+    margin-top: 10px;
+  }
+  .header .submit {
+    width: 50px;
+  }
+  .header .submit button {
+    font-size: 21px;
+    margin-top: 10px;
+    color: #0A0A23;
+    margin-left: 8px;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .header form {
     display: none;
@@ -172,109 +292,6 @@
     height: 32px;
     background-color: #FFBC3F;
     border: none;
-  }
-}
-
-@media screen and (max-width: 992px) {
-  .header {
-    height: 60px;
-  }
-  .header input {
-    width: 370px;
-    margin-top: 15px;
-  }
-  .header i {
-    margin-top: 8px;
-  }
-  .header h1 {
-    font-size: 28px;
-    margin-top: 13px;
-  }
-  .header svg {
-    margin-top: 10px;
-  }
-  .header .svg1 svg {
-    margin-left: 100px;
-    width: 30px;
-    margin-top: 10px;
-  }
-  .header .menu button {
-    font-size: 21px;
-    margin-top: 10px;
-  }
-  .header .submit {
-    width: 50px;
-  }
-  .header .submit button {
-    font-size: 21px;
-    margin-top: 10px;
-    color: #0A0A23;
-    margin-left: 8px;
-  }
-}
-
-@media screen and (max-width: 1200px) {
-  .header {
-    height: 57px;
-  }
-  .header input {
-    width: 460px;
-    margin-top: 15px;
-  }
-  .header i {
-    margin-top: 8px;
-  }
-  .header h1 {
-    font-size: 28px;
-    margin-top: 10px;
-  }
-  .header svg {
-    margin-top: 8px;
-  }
-  .header .svg1 svg {
-    margin-left: 245px;
-    margin-top: 10px;
-  }
-  .header .menu button {
-    font-size: 20px;
-    margin-top: 10px;
-  }
-  .header .submit button {
-    font-size: 20px;
-    margin-top: 10px;
-    color: #0A0A23;
-    margin-left: 13px;
-  }
-}
-
-@media screen and (max-width: 1400px) {
-  .header {
-    height: 55px;
-    padding-top: 8px;
-  }
-  .header i {
-    margin-top: 7px;
-  }
-}
-
-@media screen and (max-width: 1330px) {
-  .header input {
-    width: 470px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-  }
-}
-
-@media screen and (max-width: 1292px) {
-  .header h1 {
-    font-size: 24px;
-    margin-top: 7px;
-  }
-  .header .svg1 svg {
-    margin-left: 280px;
-  }
-  .header .submit button {
-    color: #0A0A23;
   }
 }
 /*# sourceMappingURL=style.css.map */
