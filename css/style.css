@@ -46,6 +46,7 @@
   margin-top: 2px;
   color: #333;
   cursor: pointer;
+  color: white;
 }
 
 .header .svg1 svg {
@@ -84,6 +85,10 @@
 }
 
 .header .int {
+  display: none;
+}
+
+.header .svg2 {
   display: none;
 }
 

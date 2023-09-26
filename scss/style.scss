@@ -48,6 +48,7 @@ $orange:#FFBC3F;
             margin-top: 2px;
             color: #333;
             cursor: pointer;
+            color: white;
         }
     }
 
@@ -92,6 +93,10 @@ $orange:#FFBC3F;
     }
 
     .int{
+        display: none;
+    }
+
+    .svg2{
         display: none;
     }
 }
