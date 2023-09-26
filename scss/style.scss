@@ -92,10 +92,6 @@ $orange:#FFBC3F;
         }
     }
 
-    .int{
-        display: none;
-    }
-
     .svg2{
         display: none;
     }
@@ -149,6 +145,131 @@ $orange:#FFBC3F;
                 margin-left: -43px;
             }
         }
+    }
+    
+}
+
+@media screen and (max-width:576px){
+    h1{
+        font-size: 24px;
+        margin-top: 6px;
+    }
+    .header{
+        .svg1{
+            svg{
+                margin-left: 240px;
+            }
+        }
+        .menu{
+            display: none;
+        }
+
+        .submit{
+            display: none;
+        }
+        .svg2{
+            display: block;
+            .svg3{
+                width: 30px;
+            }
+
+            svg{
+                height: 28px;
+                left: 470px;
+                padding-top: 2.5px;
+                padding-bottom: 2.5px;
+                position: absolute;
+                top: 3px;
+                border: 1px solid white;
+
+            }
+
+            .svg4{
+                display: none;
+            }
+            .svg5{
+                margin-left: 10px;
+                height: 32px;
+            }
+
+            .svg3{
+                margin-left: 54px;
+                width: 40px;
+                height: 32px;
+                background-color: $orange;
+                border: none;
+            }
+        }
+    }
+    
+}
+
+@media screen and (max-width:992px) {
+    .header{
+        height: 60px;
+        input{
+            width: 370px;
+            margin-top: 15px;
+        }
+        i{
+            margin-top: 8px;
+        }
+
+        h1{
+            font-size: 28px;
+            margin-top: 13px;
+        }
+
+        svg{
+            margin-top: 10px;
+        }
+
+        .svg1{
+            svg{
+                margin-left: 100px;
+                width: 30px;
+                margin-top: 10px;
+            }
+
+            
+        }
+        .menu{
+            button{
+                font-size: 21px;
+                margin-top: 10px;
+            }
+        }
+
+        .submit{
+            width: 50px;
+            button{
+                font-size: 21px;
+                margin-top: 10px;
+                color: $background;
+                margin-left: 8px;
+            }
+        }
+    }
+    
+}
+
+@media screen and (max-width:1200px) {
+    .header{
+        height: 57px;
+        input{
+            width: 460px;
+            margin-top: 15px;
+        }
+        i{
+            margin-top: 8px;
+        }
+
+        h1{
+            font-size: 28px;
+            margin-top: 10px;
+        }
+
+        .svg1
     }
     
 }
