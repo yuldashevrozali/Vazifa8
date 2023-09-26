@@ -94,7 +94,7 @@
   }
 }
 
-@media screen and (max-width: 375PX) {
+@media screen and (max-width: 375px) {
   .menu {
     display: none;
   }
@@ -227,6 +227,54 @@
   .header h1 {
     font-size: 28px;
     margin-top: 10px;
+  }
+  .header svg {
+    margin-top: 8px;
+  }
+  .header .svg1 svg {
+    margin-left: 245px;
+    margin-top: 10px;
+  }
+  .header .menu button {
+    font-size: 20px;
+    margin-top: 10px;
+  }
+  .header .submit button {
+    font-size: 20px;
+    margin-top: 10px;
+    color: #0A0A23;
+    margin-left: 13px;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  .header {
+    height: 55px;
+    padding-top: 8px;
+  }
+  .header i {
+    margin-top: 7px;
+  }
+}
+
+@media screen and (max-width: 1330px) {
+  .header input {
+    width: 470px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+}
+
+@media screen and (max-width: 1292px) {
+  .header h1 {
+    font-size: 24px;
+    margin-top: 7px;
+  }
+  .header .svg1 svg {
+    margin-left: 280px;
+  }
+  .header .submit button {
+    color: #0A0A23;
   }
 }
 /*# sourceMappingURL=style.css.map */

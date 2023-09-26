@@ -106,7 +106,7 @@ $orange:#FFBC3F;
     
 }
 
-@media screen and (max-width:375PX) {
+@media screen and (max-width:375px) {
     .menu{
         display: none;
     }
@@ -269,7 +269,79 @@ $orange:#FFBC3F;
             margin-top: 10px;
         }
 
-        .svg1
+        svg{
+                margin-top: 8px;
+        }
+
+        .svg1{
+            svg{
+                margin-left: 245px;
+                margin-top: 10px;
+            }
+        }
+
+        .menu{
+            button{
+                font-size: 20px;
+                margin-top: 10px;
+            }
+        }
+
+        .submit{
+            button{
+                font-size: 20px;
+                margin-top: 10px;
+                color: $background;
+                margin-left: 13px;
+            }
+        }
     }
     
+}
+
+@media screen and (max-width:1400px){
+    .header{
+        height: 55px;
+        padding-top: 8px;
+        i{
+            margin-top: 7px;
+        }
+    }
+}
+
+@media screen and (max-width:1330px){
+    .header{
+        input{
+            width: 470px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+        }
+    }
+}
+
+@media screen and (max-width:1292px){
+    .header{
+        h1{
+            font-size: 24px;
+            margin-top: 7px;
+        }
+
+        .svg1{
+            svg{
+                margin-left: 280px;
+            }
+        }
+
+        .submit{
+            button{
+                color: $background;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:1100px) { 
+    .header{
+
+    }
 }
