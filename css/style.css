@@ -105,11 +105,15 @@
   h1 {
     font-size: 22px;
     margin-top: 7px;
+    margin-left: 5px;
   }
   .submit {
     display: none;
   }
-  .svg2 svg {
+  .header .svg2 {
+    display: block;
+  }
+  .header .svg2 svg {
     height: 28px;
     left: 270px;
     padding-top: 2.5px;
@@ -117,6 +121,16 @@
     position: absolute;
     top: 3px;
     border: 1px solid white;
+  }
+  .header .svg2 .svg3 {
+    background-color: #FFBC3F;
+    width: 37px;
+    border: none;
+    color: #0A0A23;
+    margin-left: 55px;
+  }
+  .header .svg2 .svg4 {
+    margin-left: -43px;
   }
 }
 /*# sourceMappingURL=style.css.map */
